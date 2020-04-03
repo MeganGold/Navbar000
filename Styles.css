@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+nav > a {
+    color: #222;
+    font-size: 30px;
+    font-weight: bold;
+    color: dodgerblue;
+}
+
+ul > li {
+    display: inline-flex;
+    margin-right: 25px;
+}
+
+ul > li:hover {
+    border-bottom: 3px solid dodgerblue;
+}
+
+ul > li a {
+    color: #222;
+}
+
+a {
+    text-decoration: none;
+}
+
+#login {
+    padding: 10px;
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+#Register {
+    padding: 10px 30px;
+    border: 2px solid dodgerblue;
+    background: none;
+    border-radius: 20px;
+    color: #222;
+}
