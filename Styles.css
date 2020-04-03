@@ -1,5 +1,6 @@
 * {
     margin: 0;
+    font-family: Helvetica, sans-serif;
 }
 
 nav {
@@ -30,6 +31,11 @@ ul > li a {
 
 a {
     text-decoration: none;
+}
+
+section > button {
+    font-family: Helvetica, sans-serif;
+    font-size: 16px;
 }
 
 #login {
